@@ -16,5 +16,5 @@ port-sniffer 0.1.0
 * OPTIONS:
 
     * -i, --ip-address <ip-address>
-    * -p, --port-range <port-range>
+    * -p, --port-range <port-range>     *single port* 80 | *range* (10-20) | *multiport* 1,2,3,4,5
     * -t, --threads <threads>           [default: 8]
